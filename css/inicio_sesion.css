@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background-color: #2c3338;
+	color: #606468;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+
+#formulario{
+	color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding: 17px;
+    background-color: white;
+    border-radius: 10px;
+}
+#btn-registro{
+	text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #ea4c88;
+    color: #eee;
+
+}
+#titulo{
+	color: white;
+	    text-align: center;
+    font-size: 46px;
+    margin: 30px;
+}
+#btn-sesion{
+	text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #ea4c88;
+    color: #eee;
+    
+    height: 46px;
+}
+.hidden{
+	visibility: hidden;
+}

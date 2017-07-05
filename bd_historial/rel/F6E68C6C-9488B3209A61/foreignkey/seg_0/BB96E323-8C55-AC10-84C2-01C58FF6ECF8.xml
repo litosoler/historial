@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB96E323-8C55-AC10-84C2-01C58FF6ECF8" containerWithKeyObject="D0F8ABCC-C812-BAC0-6466-C8CF54AB4364" localFKIndex="8E3A48F7-EFBB-616A-00ED-E1C178B42F8C" name="CLASES_APROVADAS_USUARIOS_FK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:44:16 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<referredTableLongName>USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19FD0A2C-CC5B-9966-5294-756E6ADE7F55</referredTableID>
+<keyObject>3F6C5A4F-ACF4-D039-5947-46802DB42174</keyObject>
+<referredKeyID>3F6C5A4F-ACF4-D039-5947-46802DB42174</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

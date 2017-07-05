@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="890661DF-E759-34D6-FAC0-CC707F81F683">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:24:16 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

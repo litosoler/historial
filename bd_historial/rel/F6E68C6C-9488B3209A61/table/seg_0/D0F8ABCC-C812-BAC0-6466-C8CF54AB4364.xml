@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0F8ABCC-C812-BAC0-6466-C8CF54AB4364" name="CLASES_APROVADAS">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:41:51 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>APROBADAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLASE_APROBADA" id="D8199264-44D2-9A29-2C3E-A4AC5B69EFBB">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:42:45 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CLASES_APROBADA" id="3D0CD787-8DC1-229F-7DA2-A0EA223677F8">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:43:18 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AB63192-6250-4C1B-7052-2D53CDA1AF79" referredColumn="E50836E3-3203-3496-DAB4-A9E61C539022"/>
+</associations>
+</Column>
+<Column name="ID_USER" id="B96F8F86-62EB-64CB-F016-9B29E65FC06B">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:44:16 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB96E323-8C55-AC10-84C2-01C58FF6ECF8" referredColumn="7FE5B9A3-0299-EFE7-8BAC-38B4B3DF0EFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="176D3BCE-27A1-F68D-917E-CD34302BCE9C" name="CLASES_APROVADAS_PK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:42:45 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8199264-44D2-9A29-2C3E-A4AC5B69EFBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1918955E-6CCE-3C77-ED27-D3164F56956A" name="CLASES_APROVADAS_CLASES_CARRERA_FK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:43:18 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0CD787-8DC1-229F-7DA2-A0EA223677F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E3A48F7-EFBB-616A-00ED-E1C178B42F8C" name="CLASES_APROVADAS_USUARIOS_FK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:44:16 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B96F8F86-62EB-64CB-F016-9B29E65FC06B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

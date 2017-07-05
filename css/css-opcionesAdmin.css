@@ -1,0 +1,24 @@
+.container{
+	background-color: #F1F1F1;
+}
+.secciones{
+	background-color: white;
+	margin-top:40px;
+	border: 1px solid #E58281; 
+}
+.fichas{
+	padding: 20px;
+	text-align: center;
+}
+.btn-default{
+	background-color: #F1F1F1;
+}
+.btn-default:hover{
+	background-color:  #E58281;
+}
+.dropdown-menu{
+	padding: 10px;
+}
+.hidden{
+	visibility: hidden;
+}

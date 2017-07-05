@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C221C1A2-36A3-02AE-0B5A-A87F561D62A1" mainViewID="47626CF5-F6AE-3D1F-F6D4-5E605A9BF9C4">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:24:14 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

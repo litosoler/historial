@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AB63192-6250-4C1B-7052-2D53CDA1AF79" containerWithKeyObject="D0F8ABCC-C812-BAC0-6466-C8CF54AB4364" localFKIndex="1918955E-6CCE-3C77-ED27-D3164F56956A" name="CLASES_APROVADAS_CLASES_CARRERA_FK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:43:18 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<referredTableLongName>CLASES_CARRERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AAE02981-B270-9D97-8469-F99BB1939B1F</referredTableID>
+<keyObject>508BAE4B-EB0E-B25F-93F6-9A3FCC69F6C0</keyObject>
+<referredKeyID>508BAE4B-EB0E-B25F-93F6-9A3FCC69F6C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLASE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

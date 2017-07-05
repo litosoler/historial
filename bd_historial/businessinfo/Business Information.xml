@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6F2D2FDC-FCD4-A529-4688-148BC5714A17">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:24:17 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

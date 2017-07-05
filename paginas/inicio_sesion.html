@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Login</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <!-- jquery-->
+    <script type="text/javascript" src="../libs/jquery.js"></script>
+     <!-- boostrap -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/inicio_sesion.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="prueba" style="background-color: white;"></div>
+    <div id="login" class="container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+               <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input id="usuario" type="text" class="form-control" placeholder="Usuario">
+                  <span id="user-error" style="color: red;" class="glyphicon glyphicon-remove form-control-feedback hidden"></span>
+              </div>
+              <div class="input-group ">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="pwd" type="password" class="form-control"  placeholder="Contraseña">
+                  <span id="pwd-error" style="color: red;" class="glyphicon glyphicon-remove form-control-feedback hidden" ></span>
+              </div>
+              <br>
+              <p><button id="btn-sesion" class="btn form-control ">Inice Sesion</button></p>
+          </div>
+        </div>   
+        <p style=" text-align: center;   clear: both; margin-top: 30px; color: white; font-size: 17px;">¿No eres miembro? <a style="color:#00AA00; " href="registro_usuario.html">Registrese   </a><span class="fontawesome-arrow-right"></span></p>
+    </div>
+  <script type="text/javascript" src="../js/inicio_sesion.js"></script>
+</body>
+</html>

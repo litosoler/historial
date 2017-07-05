@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19FD0A2C-CC5B-9966-5294-756E6ADE7F55" name="USUARIOS">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:26:34 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>USER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="7FE5B9A3-0299-EFE7-8BAC-38B4B3DF0EFE">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:26:50 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_USER" id="6EC62380-F080-7A1E-E5F4-24FE556998FC">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:31:03 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_USER" id="8B287922-B977-8C43-6DC6-B43EDE4DD863">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:31:03 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_USUARIO" id="2ABD9CFE-67D8-7BDF-124F-4F915E2648A6">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:31:58 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F6C5A4F-ACF4-D039-5947-46802DB42174" name="USUARIOS_PK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:31:03 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE5B9A3-0299-EFE7-8BAC-38B4B3DF0EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

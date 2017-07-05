@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE02981-B270-9D97-8469-F99BB1939B1F" name="CLASES_CARRERA">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:35:33 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>CLASES</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLASE" id="E50836E3-3203-3496-DAB4-A9E61C539022">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:38:08 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CLASE" id="37C27902-07EE-09C9-8E29-FFF4441EEDB0">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:38:08 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADES_VALORATIVAS" id="4AE67570-8228-78E6-B8E0-CDA83C0997F0">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:38:08 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="508BAE4B-EB0E-B25F-93F6-9A3FCC69F6C0" name="CLASES_CARRERA_PK">
+<createdBy>litosoler</createdBy>
+<createdTime>2017-06-28 19:38:08 UTC</createdTime>
+<ownerDesignName>bd_historial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E50836E3-3203-3496-DAB4-A9E61C539022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
